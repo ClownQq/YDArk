@@ -35,12 +35,12 @@ CRC32: D3401906
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 File: YDArk.exe
-Size: 10497024 bytes
+Size: 10419200 bytes
 File Version: 1.0.0.7
-Modified: 2019年10月14日, 11:29:14
-MD5: 706A39AECD5772E12D51C213DAEFE9B4
-SHA1: 7DC7AB5A1C668B560E59A7BA09C58D8FF6A4D6DA
-CRC32: ECFFCD62
+Modified: 2019年10月14日, 13:36:24
+MD5: 04D5C0C3D271AEBBF0D25A9419933972
+SHA1: 4B8106C3F08C03E68CDB59B5A4F80046526A56EC
+CRC32: AD05F659
 
 File: YDArkDrv.sys
 Size: 4519936 bytes
