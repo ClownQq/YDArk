@@ -42,7 +42,7 @@
 
 // 内核钩子
 12.SSDT/ShadowSSDT/FSD/键盘/I8042Prt/鼠标/Partmgr/Disk/Atapi/Acpi/Scsi检测和恢复Hook和InlineHook
-13.扫描/恢复内核钩子(目前只支持IAT EAT恢复)
+13.扫描/恢复内核钩子
 14.查看/恢复Object钩子
 15.查看中断描述符表
 
@@ -117,3 +117,9 @@
 1.修复导致文件路径异常BUG
 2.新增注册表导出.reg文件
 3.新增应用层扫描Inline钩子
+
+1.0.0.16:
+1.优化枚举驱动模块
+2.优化扫描内核钩子
+3.新增应用层扫描EAT钩子
+4.新增检测Infinity钩子(SSDT Tab弹框)
