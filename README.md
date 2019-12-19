@@ -11,65 +11,93 @@
 
 // 本驱动加了VMProtect壳, 不支持启用内核隔离.
 
-// 驱动未进行驱动签名, 请自行对驱动文件签名或开启测试模式, (已签名但还加载驱动失败)请禁用Secure Boot或微软Ev签名或虚拟机使用.
+// 驱动未进行驱动签名, 请自行对驱动文件签名或开启调试模式, (已签名但还加载驱动失败)请禁用Secure Boot或微软Ev签名或虚拟机使用.
 
 // 欢迎大家在使用中若是发现BUG, 请及时联系反馈, 将会尽快修复, 如果大家有好的建议或意见, 也可以联系以下QQ或QQ群.
 // QQ: 3269334485; QQ群: 399309204
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-工具截图
+
+// Tool screenshot
 ![image](https://github.com/ClownQq/YDArk/blob/master/screenshots/Process.png)
 ![image](https://github.com/ClownQq/YDArk/blob/master/screenshots/SystemNotify.png)
 
-已实现的功能:
-01.支持F5刷新
-// 进程
-02.进程(Del键普通杀进程)/模块/模块/线程/句柄(F2编辑句柄权限)/窗口/内存/定时器/热键
+// Process
+Threads                     View/Kill/Suspend/Resume
+Modules                     View/Unload/Dump
+Handles                     View/Close/Modify Granted Access
+Windows                     View/Show/Hide/Maximized/Minimized/Enable/Disable/Close/Attack
+Memorys                     View/Dump/Modify Protection
+Timers                      View/Remove
+HotKeys                     View/Remove
 
-// 驱动模块
-03.驱动模块查看
+// Driver Module
+Driver                      View/Unload/Dump/View Hide Driver
 
-// 内核
-04.查看/移除系统回调
-05.查看/移除过滤驱动
-06.查看/移除DPC定时器
-07.查看/恢复Hal回调
-08.查看/恢复Wdf回调
-09.查看/移除文件系统(MiniFilter/文件系统/SFilter/ClassInitData/Npfs/Msfs/UsbPort)
-10.查看Disk对象劫持
-11.查看全局描述符表
+// Kernel
+System Notify               View/Remove/Disassembling
+Filter Driver               View/Remove/Disassembling
+DPC Timer                   View/Remove/Disassembling
+Hal Call                    View/Restore/Disassembling
+Wdf Call                    View/Restore/Disassembling
+File System                 View/Remove/Disassembling
+Object Hijack               View/Restore (Disk)
+Global Descriptor Table     View
 
-// 内核钩子
-12.SSDT/ShadowSSDT/FSD/键盘/I8042Prt/鼠标/Partmgr/Disk/Atapi/Acpi/Scsi检测和恢复Hook和InlineHook
-13.扫描/恢复内核钩子
-14.查看/恢复Object钩子
-15.查看中断描述符表
+// Kernel Hook
+SSDT                        View/Restore/Disassembling
+ShadowSSDT                  View/Restore/Disassembling
+FSD                         View/Restore/Disassembling
+Keyboard                    View/Restore/Disassembling
+I8042prt                    View/Restore/Disassembling
+Mouse                       View/Restore/Disassembling
+Partmgr                     View/Restore/Disassembling
+Disk                        View/Restore/Disassembling
+Atapi                       View/Restore/Disassembling
+Acpi                        View/Restore/Disassembling
+Scsi                        View/Restore/Disassembling
+Kernel Hook                 Scan/Restore/Disassembling
+Object Type                 View/Restore/Disassembling
+Interrupt Descriptor Table  View
 
-// 应用层钩子
-16.查看/移除消息钩子
-17.查看/恢复内核回调表
+// User Hook
+Message Hook                View/Remove
+User Hook                   Scan/Restore
+Kernel Hook Table           Scan/Restore
 
-// 网络
-18.查看/移除网络端口
-19.Tcpip/Nsiproxy/Tdx检测和恢复Hook和InlineHook
-20.查看/移除WfpFilter
-21.查看WfpCallout函数
-22.查看Ndis函数
+// Net Work
+Port                        View/Remove
+Tcpip                       View/Restore/Disassembling
+Nsiproxy                    View/Restore/Disassembling
+Tdx                         View/Restore/Disassembling
+Wfp WfpFilter               View/Remove
+Wfp Callout                 View
+Ndis                        View
+IE Plugin                   View/Remove
+IE Shell                    View/Remove
+SPI                         View/Repair
+Hosts                       View/Edit
 
-// 注册表
-23.枚举注册表/删除/新建/重命名注册表键(KEY)和注册表值(VALUE)/监控修改回调
+// Registry
+Create/Enumerate/Delete/Rename/Export/View Watch
 
-// 文件
-24.枚举文件/新建/解锁/删除/重启删除/重启替换/重命名/拷入拷出/拖入文件列表框
+// File
+Create/Enumerate/Delete/Rename/View Lock/View File Pending/Delay Delete/Copy To/Copy In/Drag In
 
-// 启动项
-25.枚举/删除/修复启动项
-26.枚举/启动/停止/暂停/恢复/重启服务
-27.枚举/禁用/启用/删除任务计划
+// Startup Info
+Startup                     View/Remove
+Services                    View/Start/Stop/Pause/Resume/Restart/Delete
+Schedule Task               View/Disable/Enable/Delete
 
-// 监控
-28.监控进程/驱动加载/远线程注入
+// Monitor
+Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
+
+// About
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 1.0.0.6:
 1.新增枚举/恢复Disk对象劫持
@@ -123,3 +151,7 @@
 2.优化扫描内核钩子
 3.新增应用层扫描EAT钩子
 4.新增检测Infinity钩子(SSDT Tab弹框)
+
+1.0.0.17:
+1.新增支持7600
+2.新增网络 IE插件/右键菜单/SPI/Host
