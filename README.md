@@ -155,3 +155,7 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.0.17:
 1.新增支持7600
 2.新增网络 IE插件/右键菜单/SPI/Host
+
+1.0.0.18:
+1.新增系统杂项Tab
+2.修复扫描内核钩子不显示BUG
