@@ -159,3 +159,10 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.0.18:
 1.新增系统杂项Tab
 2.修复扫描内核钩子不显示BUG
+
+1.0.1.1:
+1.更改工具图标
+2.新增应用层扫描IAT钩子(X64:Ntdll\KernelBase\Kernel32; X32:Ntdll)
+3.反汇编引擎更改为zydis(https://github.com/zyantific/zydis)
+4.加强扫描驱动模块
+5.优化内核钩子扫描(随机页表基址)
