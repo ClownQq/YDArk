@@ -166,3 +166,12 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 3.反汇编引擎更改为zydis(https://github.com/zyantific/zydis)
 4.加强扫描驱动模块
 5.优化内核钩子扫描(随机页表基址)
+
+1.0.1.2:
+1.修复进程保护个数有误BUG
+2.新增IRP分发例程显示(驱动模块Tab-右键菜单)
+3.新增文件目录拷贝
+4.新增枚举工作线程
+5.新增检测Sysenter钩子(SSDT Tab弹框)
+6.新增枚举ExCallBack(内核钩子Tab-Object钩子Tab)
+7.引用https://github.com/zodiacon/ProcMonX几个bmp图标
