@@ -175,3 +175,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 5.新增检测Sysenter钩子(SSDT Tab弹框)
 6.新增枚举ExCallBack(内核钩子Tab-Object钩子Tab)
 7.引用https://github.com/zodiacon/ProcMonX几个bmp图标
+
+1.0.1.3:
+1.修复FastFat、ExFat、MsFs个别原始函数获取失败BUG
+2.新增进程注入
+3.新增进程隐藏
