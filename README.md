@@ -180,3 +180,7 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.修复FastFat、ExFat、MsFs个别原始函数获取失败BUG
 2.新增进程注入
 3.新增进程隐藏
+
+1.0.1.4:
+1.优化进程句柄信息
+2.新增文件保护
