@@ -184,3 +184,10 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.1.4:
 1.优化进程句柄信息
 2.新增文件保护
+
+1.0.1.5:
+1.新增支持Windows10 19041
+2.新增进程断链支持进程保护
+3.新增检测/移除ATs开机启动
+4.修复系统版本大于等于17134进程断链触发PG蓝屏
+5.加强获取驱动模块信息
