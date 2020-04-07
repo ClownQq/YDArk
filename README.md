@@ -189,5 +189,5 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.新增支持Windows10 19041
 2.新增进程断链支持进程保护
 3.新增检测/移除ATs开机启动
-4.修复系统版本大于等于17134进程断链触发PG蓝屏
+4.修复系统版本大于等于17134进程断链触发PG蓝屏; ps:vmware虚拟机使用请将vm3dmp.sys进程回调摘除, 否则进程退出蓝屏~
 5.加强获取驱动模块信息
