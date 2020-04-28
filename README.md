@@ -191,3 +191,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 3.新增检测/移除ATs开机启动
 4.修复系统版本大于等于17134进程断链触发PG蓝屏; ps:vmware虚拟机使用请将vm3dmp.sys进程回调摘除, 否则进程退出蓝屏~
 5.加强获取驱动模块信息
+
+1.0.1.6:
+1.加强系统线程模块获取
+2.新增Windows10扫描驱动模块重命名
+3.新增系统变速(系统杂项Tab-杂项), 目前支持7600、7601、9200、9600、10240、10586、14393、15063
