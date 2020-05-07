@@ -196,3 +196,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.加强系统线程模块获取
 2.新增Windows10扫描驱动模块重命名
 3.新增系统变速(系统杂项Tab-杂项), 目前支持7600、7601、9200、9600、10240、10586、14393、15063
+
+1.0.1.7:
+1.更改工具图标(感谢群友提供)
+2.修复枚举驱动模块蓝屏
+3.修复监控功能蓝屏
