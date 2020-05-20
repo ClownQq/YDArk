@@ -201,3 +201,6 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.更改工具图标(感谢群友提供)
 2.修复枚举驱动模块蓝屏
 3.修复监控功能蓝屏
+
+1.0.1.8:
+1.优化进程钩子扫描
