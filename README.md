@@ -204,3 +204,7 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 
 1.0.1.8:
 1.优化进程钩子扫描
+
+1.0.1.9:
+1.修复枚举服务失败BUG
+2.新增系统变速(系统杂项Tab-杂项), 16299-19041, 目前支持所有系统
