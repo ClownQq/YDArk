@@ -208,3 +208,10 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.1.9:
 1.修复枚举服务失败BUG
 2.新增系统变速(系统杂项Tab-杂项), 16299-19041, 目前支持所有系统
+
+1.0.1.10:
+1.新增进程命令行
+2.新增修改进程路径
+3.新增修改进程父进程Id
+4.新增显示指定驱动线程(驱动模块Tab-右键-驱动线程)
+5.新增枚举/移除VEH VCH UEF(应用层钩子Tab-异常回调)
