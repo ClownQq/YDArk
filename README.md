@@ -215,3 +215,10 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 3.新增修改进程父进程Id
 4.新增显示指定驱动线程(驱动模块Tab-右键-驱动线程)
 5.新增枚举/移除VEH VCH UEF(应用层钩子Tab-异常回调)
+
+1.0.1.11:
+1.新增支持Windows10 19042
+2.优化进程Inline钩子恢复
+3.优化进程内存属性修改
+4.修复应用层界面相关BUG
+5.新增标题广告(要恰饭的嘛)
