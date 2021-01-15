@@ -223,3 +223,7 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 4.修复应用层界面相关BUG
 5.新增标题广告(要恰饭的嘛)
 6.修复弹框1073错误
+
+1.0.2.1:
+1.修复19042 Dpc定时器枚举缺陷(感谢群友提醒)
+2.修复加载驱动缺陷
