@@ -227,3 +227,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.2.1:
 1.修复19042 Dpc定时器枚举缺陷(感谢群友提醒)
 2.修复加载驱动缺陷
+
+1.0.2.2:
+1.新增支持Windows10 19043
+2.加强进程相关操作
+3.新增网络端口远程ip识别
