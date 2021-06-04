@@ -232,3 +232,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.新增支持Windows10 19043
 2.加强进程相关操作
 3.新增网络端口远程ip识别
+
+1.0.2.3:
+1.新增SSDT检测VtHook
+2.新增检测19041-19043 Infinity钩子(SSDT Tab弹框)
+3.移除检测软件更新
