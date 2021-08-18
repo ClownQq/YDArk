@@ -1,9 +1,1 @@
-# YOU MUST KNOW WHAT YOU ARE DOING  
-  
-'YDArkDrv-Signed.sys' has been signed with a compromised, expired certificate file.  
-please chose one or more anti-virus software that you trust to check to ensure it's safe, before your using.  
-this may strongly ** HARMFUL ** to your computer..  
-this is only for testing.  
-rename 'YDArkDrv-Signed.sys' to 'YDArkDrv.sys' and cover the 'YDArkDrv.sys' which haven't been signed, enjoy.  
-  
-  
+
