@@ -237,3 +237,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.新增SSDT检测VtHook
 2.新增检测19041-19043 Infinity钩子(SSDT Tab弹框)
 3.移除检测软件更新
+
+1.0.2.4:
+1.新增支持Windows11 22000
+2.加强进程相关操作
+3.加强文件相关操作
