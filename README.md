@@ -242,3 +242,7 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.新增支持Windows11 22000
 2.加强进程相关操作
 3.加强文件相关操作
+
+1.0.2.5:
+1.Added support for Windows10 19044
+2.Repair Windows Server 2016 loading bsod
