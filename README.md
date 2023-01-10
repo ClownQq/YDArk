@@ -246,3 +246,9 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 1.0.2.5:
 1.Added support for Windows10 19044
 2.Repair Windows Server 2016 loading bsod
+
+1.0.3.1:
+1.Added support for Windows10 19045
+2.Added support for Windows11 22621
+3.disable process hide
+4.Optimize file traversal
