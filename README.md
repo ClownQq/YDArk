@@ -252,3 +252,12 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 2.Added support for Windows11 22621
 3.disable process hide
 4.Optimize file traversal
+
+1.0.3.2:
+1.Optimize process enumeration
+2.Optimize driver enumeration
+3.Optimize kernel hook scanning
+4.Fix Windows10 ssdt bug
+5.Fix process message bug
+6.Optimize Loading driver error code
+7.Added modification process timer time (milliseconds)
