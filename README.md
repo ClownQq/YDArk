@@ -261,3 +261,8 @@ Create Exit Process/Create Thread/Load Image/Load Driver/Remote Thread Injection
 5.Fix process message bug
 6.Optimize Loading driver error code
 7.Added modification process timer time (milliseconds)
+
+1.0.3.3:
+1.Added support for Windows11 22631
+2.Repair driver module tab bsod
+3.Optimize hal information
